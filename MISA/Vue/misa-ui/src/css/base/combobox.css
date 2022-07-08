@@ -1,0 +1,301 @@
+/* Component : Box Input Text
+Format :
+<div class="component-box_input">
+    <div class="flex">
+        <div class="b pb4">Mã</div>
+        <div class="title-required">&nbsp;*</div>
+    </div>
+    <div class="w100p">
+        <input type="text" class="w100p input_normal input-height32">
+    </div>
+</div> */
+
+.component-box_input {
+    width: 100%;
+}
+
+.component-box_input .flex {
+    height: 20px;
+}
+
+.title-required {
+    color: #ff0000;
+}
+
+/* Component : Box Select 
+Format :
+<div class="component-box-select">
+    <div class="flex">
+        <div class="b pb4">Mã</div>
+        <div class="title-required">&nbsp;*</div>
+    </div>
+    <div class="main-combobox">
+        <select class="select">
+            <option value="142cb08f-7c31-21fa-8e90-67245e8b283e">Phòng nhân sự</option>
+            <option value="17120d02-6ab5-3e43-18cb-66948daf6128">Phòng tuyển sinh</option>
+            <option value="469b3ece-744a-45d5-957d-e8c757976496">Phòng sản xuất</option>
+            <option value="4e272fc4-7875-78d6-7d32-6a1673ffca7c">Phòng đào tạo</option>
+        </select>
+    </div>
+</div> */
+
+.component-box-select {
+    width: 100%;
+}
+
+.component-box-select .flex{
+    height: 20px;
+}
+
+.main-combobox {
+    display: flex;
+    min-height: 32px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.main-combobox select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #fff;
+    background-image: none;
+    flex: 1;
+    padding: 0 14px;
+    color: #111111;
+    cursor: pointer;
+}
+
+.main-combobox .select {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 32px;
+    line-height: 2;
+    background: #fff;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 1em;
+    background: DodgerBlue;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: #111111;
+}
+
+.select:hover::after {
+    background-color: #ddd;
+}
+
+/* .select-option{
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: calc(100% - 32px);
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+
+.select-option input{
+    border: none;
+    font-size: 13px;
+    padding-right: unset;
+    text-overflow: ellipsis;
+    background-color: transparent;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.select-option input:focus {
+    outline: none;
+}
+
+.combo-action {
+    display: flex;
+    height: 32px;
+}
+
+.btn-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0 8px;
+    height: 100%;
+}
+
+.btn-dropdown:hover {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+} */
+
+/* Component : Box Input Calendar
+Format :
+<div class="component-box_calendar">
+    <div class="flex">
+        <div class="b pb4">Ngày sinh</div>
+    </div>
+    <div class="w100p">
+        <div class="form-calendar">
+            <input id="dateOfBirth" type="text" placehoder="DD/MM/YYYY">
+            <label for="dateOfBirth" class="btn-calendar">
+                <div class="icon icon_24 icon_calendar"></div>
+            </label>
+        </div>
+    </div>
+</div> */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../../assets/Resource/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -120px -306px;
+    cursor: pointer;
+    padding: 2px 8px 4px 0;
+    width: 24px;
+    height: 24px;
+    border-width: thin;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    background-color: #ccc;
+}
+
+
+.form-calendar{
+    border: 1px solid #babec5;
+    width: 100%;
+    height: 32px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.form-calendar input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 13px;
+    width: 100%;
+    padding-right: 0;
+}
+
+.btn-calendar{
+    cursor: pointer;
+    height: 100%;
+    width: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-calendar:hover{
+    background-color: #e0e0e0;
+}
+
+/* Component : Box Input Radio
+Format :
+<div class="component-box_radio">
+    <div class="flex">
+        <div class="b pb4">Giới tính</div>
+    </div>
+    <div class="w100p">
+        <div class="radio_group-ver">
+            <label class="btn-radio">
+                <input type="radio" class="input-radio" value="1" >
+                <span class="span-radio">
+                    <span class="radio-border"></span>
+                    <span class="radio-checked"></span>
+                </span>
+                <span class="radio-title">Nam</span>
+            </label>
+
+            <label class="btn-radio">
+                <input type="radio" class="input-radio" value="0" >
+                <span class="span-radio">
+                    <span class="radio-border"></span>
+                    <span class="radio-checked"></span>
+                </span>
+                <span class="radio-title">Nữ</span>
+            </label>
+        </div>
+    </div>
+</div> */
+
+.component-box_radio {
+    width: 100%;
+}
+
+.component-box_radio .w100p{
+    padding: 5px 0 6px 0;
+}
+.radio_group-ver{
+    display: flex;
+
+}
+
+.btn-radio {
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-radio{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    width: 20px;
+}
+
+.radio-border {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #afafaf;
+    background: #fff;
+    z-index: 1;
+    justify-content: center;
+    display: block;
+}
+
+.radio-checked {
+    display: none;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 4px;
+    left: 4px;
+    border-radius: 50%;
+    background: #2ca01c;
+}
+
+.input-radio:checked+.span-radio .radio-border{
+    border-color: #2ca01c;
+}
+.input-radio:checked+.span-radio .radio-checked{
+    display: block;
+}
+
+.radio-title {
+    margin-left: 10px;
+}

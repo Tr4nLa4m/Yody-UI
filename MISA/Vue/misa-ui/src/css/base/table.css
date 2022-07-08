@@ -1,0 +1,121 @@
+
+td, th {
+    padding: 0 10px;
+}
+
+td {
+    height: 44px;
+    text-align: left;
+    font-size: 13px;
+    border-right: 1px dashed #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    font-family: MISA Font Regular;
+    background-color: #ffffff;
+    
+}
+
+tr:hover td {
+    background-color: #f2f9ff;
+}
+
+.bank-content {
+    min-width: 114px;
+    position: relative;
+}
+
+.bank-content .bank-table-control{
+    position: sticky;
+    bottom: 0;
+}
+
+.bank-content .table_data-container{
+    width: 100%;
+    min-width: 0;
+    overflow: auto;
+    max-height: 138px;
+}
+
+tr.tr-selected td{
+    background-color: #e5f3ff;
+}
+
+
+.thead-td {
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    min-height: 34px;
+    height: 34px;
+    position: sticky;
+    z-index: 2;
+    top: -87px;
+    background-color: #e5e8ec;
+    vertical-align: middle;
+}
+
+.thead-td2 {
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    min-height: 34px;
+    height: 34px;
+    position: sticky;
+    z-index: 2;
+    background-color: #e5e8ec;
+    vertical-align: middle;
+}
+
+
+.thead-icon{
+    height: fit-content;
+    position: absolute;
+    right: 3px;
+    top: calc(50% - 8px);
+    cursor: pointer;
+}
+
+.thead-title{
+    font-size: 12px;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 12px;
+}
+
+.col-draggable div{
+    display: none;
+}
+
+.col-draggable:hover div{
+    display: block;
+}
+
+.thead-td.function{
+    border-right: none;
+    position: sticky;
+    right: 0;
+    z-index: 25;
+    border-left: 1px solid #c7c7c7;
+    padding-right: 4px;
+}
+
+td.function {
+    border-right: none;
+    position: sticky;
+    border-left: 1px dashed #c7c7c7;
+    right: 30px;
+    z-index: 20;
+    padding-right: 4px;
+    background: #fff;
+}
+
+td.check{
+    left: 16px;
+    z-index: 5;
+    position: sticky;
+    background-color: #fff;
+}
+
+.thead-td.check_all{
+    left: 16px;
+    z-index: 25;
+    position: sticky;
+}

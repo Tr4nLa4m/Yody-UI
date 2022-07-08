@@ -1,0 +1,225 @@
+@import url(../base/color.css);
+@import url(../base/input.css);
+@import url(../base/button.css);
+
+/* Navbar start Here */
+.navbar {
+    height: 48px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav_collapse {
+    margin: 0 10px;
+}
+
+.header_branch {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary-color);
+
+}
+
+.header_branch .header_branch-name {
+    padding-left:10px;
+    cursor: pointer;
+}
+
+.header_branch .header_branch-icon{
+    transform: rotate(90deg);
+    cursor: pointer ;
+    margin: 0 10px;
+}
+
+.dc {
+    margin: 0 10px 0 15px;
+    padding: 0 12px;
+    border: 1px solid #ebedf0;
+    font-size: 13px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.dc .dc__dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4ea344;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.dc .dc__name {
+    padding-left: 7px;
+}
+
+.space {
+    margin: 0;
+    padding: 0;
+    background: 0 0;
+    flex-grow: 1 !important;
+}
+
+.download_icon {
+    margin: 0 10px;
+    cursor: pointer;
+    padding-right: 20px;
+    margin-right: 15px;
+}
+
+.download_icon .icon_download_process:hover {
+    background-position: -2048px -200px;
+}
+
+
+.nav_icon {
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+}
+
+.nav_icon:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-top: 10px solid ;
+    border-right: 22px solid transparent;
+    border-left: 22px solid transparent;
+}
+
+.nav_icon-content {
+    margin:0 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_icon:hover.extend_feature {
+    background-color: var(--primary-color);
+}
+
+.extend_feature.nav_icon:hover::before {
+    border-top-color:var(--primary-color);
+}
+
+.nav_icon:hover .icon_category {
+    background-position: -568px -76px;
+}
+
+.nav_icon:hover.setting {
+    background-color: #000;
+}
+
+.setting.nav_icon:hover::before{
+    border-top-color: #000;
+}
+
+.nav_icon:hover .icon_setting {
+    background-position: -144px -88px;
+}
+
+.nav_icon:hover.chatting {
+    background-color: #000;
+}
+
+.chatting.nav_icon:hover::before{
+    border-top-color: #000;
+}
+
+.nav_icon:hover .icon_chat {
+    background-position: -368px -88px;
+}
+
+.help {
+    padding: 0 4px;
+}
+
+.help:first-child {
+    position: relative;
+}
+
+.help span {
+    position: absolute;
+    top: 6px;
+    right: -5px;
+    padding: 2px 6px;
+    font-size: 10px;
+    background-color: #ff7f2c;
+    border-radius: 30px;
+    color: #fff;
+    height: 18px;
+    z-index: 5;
+}
+
+.nav_icon:hover.help {
+    background-color: #000;
+}
+
+.help.nav_icon:hover::before{
+    border-top-color: #000;
+    bottom: -10px;
+    border-top: 10px solid ;
+    border-right: 26px solid transparent;
+    border-left: 26px solid transparent;
+}
+
+.nav_icon:hover .icon_help {
+    background-position: -200px -88px;
+}
+
+.nav_icon:hover.asyc_error {
+    background-color: #000;
+}
+
+.asyc_error.nav_icon:hover::before{
+    border-top-color: #000;
+}
+
+.nav_icon:hover .icon_info_asyc {
+    background-position: -1894px -143px;
+}
+
+.nav_icon:hover.notify {
+    background-color: #000;
+}
+
+.notify.nav_icon:hover::before{
+    border-top-color: #000;
+}
+
+.nav_icon:hover .icon_bell {
+    background-position: -256px -88px;
+}
+
+.user{
+    padding-right: 20px;
+}
+
+.user_container {
+    padding: 0 16px;
+    font-size: 14px;
+    color: var(--text-primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user__ava {
+    margin-right: 6px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.user__name {
+    margin-right: 8px;
+}
+
+/* Navbar end Here */
+/* <---------------------------------------------------------------> */
+
+
+

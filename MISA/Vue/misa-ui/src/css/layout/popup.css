@@ -1,0 +1,121 @@
+
+.pop_up {
+    transition: all .2s;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 200;
+}
+
+
+.pop_up-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 98;
+    transition: all .25s ease;
+    opacity: 1;
+}
+
+.p-add_emp {
+    width: 900px;
+    height: 625px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    position: relative;
+    z-index: 200;
+}
+
+.p-add_emp-header {
+    width: 100%;
+}
+
+.p-add_emp-title {
+    padding: 20px 32px;
+    padding-right: 12px;
+}
+
+.p-add_emp-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.title-popup {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: MISA Font Bold;
+}
+
+.p-add_emp-closeBtn {
+    padding: 12px;
+}
+
+.p-add_emp-closeBtn button{
+    padding: 4px;
+}
+
+.p-add_emp-closeBtn button:hover {
+    background-color: var(--main-bg-color);
+}
+
+.tab_group {
+    height: 32px;
+
+}
+
+.tab {
+    padding: 0 8px;
+    border: 1px solid #e5e7ea;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    color: #2ca01c;
+}
+
+.tab.active {
+    background-color: #cce4f9;
+    height: 100%;
+    line-height: 32px;
+}
+
+.tab-container {
+    border: 1px solid #e5e7ea;
+    width: 100%;
+    height: 194px;
+}
+
+.tab-content{
+    margin: 12px 10px 0 10px;
+}
+
+.contact-content {
+    display: block;
+}
+
+.bank-content{
+    display: none;
+}
+
+.divide {
+    width: 100%;
+    margin: 32px 0 20px 0;
+    border: 1px solid #e5e7ea;
+}
+
+.footer-btns {
+    width: 100%;
+}

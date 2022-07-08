@@ -1,0 +1,222 @@
+
+/* Base Icon */
+.icon_48{
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.icon_24{
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.icon_14{
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+.icon_16{
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+
+.icon{
+    background: url(../../assets/Resource/img/Sprites.64af8f61.svg) no-repeat;
+}
+
+/* Icon in menu */
+
+    .icon_option{
+        background-position: -424px -86px;
+    }
+
+    .icon_dashboard{
+        background-position: -30px -1628px;
+    }
+
+    .icon_cash{
+        background-position: -73px -1585px ;
+    }
+
+    .icon_bank{
+        background-position: -117px -1628px;
+    }
+
+    .icon_pu{
+        background-position: -161px -1628px;
+    }
+
+    .icon_sale{
+        background-position: -204px -1628px;
+    }
+
+    .icon_invoice{
+        background-position: -249px -1628px;
+    }
+
+    .icon_stock{
+        background-position: -291px -1628px;
+    }
+
+    .icon_tool{
+        background-position: -336px -1628px;
+    }
+
+    .icon_assets {
+        background-position: -378px -1630px;
+    }
+
+    .icon_tax{
+        background-position: -423px -1630px;
+    }
+
+    .icon_price {
+        background-position:-467px -1628px;
+    }
+
+    .icon_general {
+        background-position: -510px -1628px;
+    }
+
+    .icon_budget {
+        background-position: -378px -1659px;
+    }
+
+    .icon_report {
+        background-position:  -547px -1628px;
+    }
+
+    .icon_finance {
+        background-position: -204px -1664px;
+    }
+
+/* Icon in navbar */
+
+    .icon_three_stripes {
+        background-position: -843px -30px;
+    }
+
+    .icon_chevron-right{
+        background-position: -80px -360px;
+    }
+
+    .icon_download_process{
+        background-position: -2144px -200px;
+    }
+
+    .icon_feature_download {
+        background-position: -2048px -200px;
+    }
+
+    .icon_search {
+        background-position: -992px -360px;
+    }
+
+    .icon_category {
+        background-position: -568px -30px;
+    }
+
+    .icon_setting {
+        background-position: -675px -30px;
+    }
+
+    .icon_chat {
+        background-position: -899px -30px;
+    }
+
+    .icon_help {
+        background-position: -731px -30px;
+    }
+
+    .icon_info_asyc {
+        background-position: -1894px -88px;
+    }
+
+    .icon_bell{
+        background-position: -788px -30px;
+    }
+
+    .icon_chevron_down{
+        background-position: -1076px -32px;
+    }
+
+/* Icon in main Content */
+
+    /* Icon in Header Content */
+        .icon_chevron_left{
+            background-position: -224px -360px;
+        }
+
+        .icon_arrow_down{
+            background-position: -560px -359px;
+        }
+
+        .icon_arrow_down-white{
+            background-position: -848px -359px;
+        }
+
+
+    /* Icon in Body Content */
+        .icon_refresh {
+            background-position: -423px -201px;
+        }
+
+        .icon_refresh:hover {
+            background-position: -1097px -88px;
+        }
+
+        .icon_excel{
+            background-position: -704px -200px;
+        }
+
+        .icon_excel:hover{
+            background-position: -704px -256px;
+        }
+
+        .icon_setting-second {
+            background-position: -88px -200px;
+        }
+
+        .icon_setting-second:hover {
+            background-position: -88px -256px;
+        }
+
+        .icon_thead_option{
+            background-position: -1687px -564px;
+        }
+
+        .icon_checked {
+            background-position: -1224px -360px;
+            transform: rotate(90deg);
+        }
+
+        .icon_arrow_down-blue{
+            background-position:-896px -359px;
+        }
+
+    /* Icon in Popup  */
+
+        .icon_close{
+            background-position: -144px -144px;
+        }
+
+        .icon_calendar {
+            background-position: -120px -308px;
+        }
+
+        .icon_delete {
+            background-position: -464px -312px;
+        }
+
+        .icon_exclamation-error {
+            background-position: -24px -954px;
+        }

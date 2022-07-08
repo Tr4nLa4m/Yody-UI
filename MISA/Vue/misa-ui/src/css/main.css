@@ -1,0 +1,54 @@
+@import url(./base/color.css);
+@import url(./base/display.css);
+@import url(./base/input.css);
+@import url(./base/dialog.css);
+@import url(./base/icon.css);
+@import url(./base/combobox.css);
+@import url(./base/table.css);
+@import url(./layout/menu.css);
+@import url(./layout/navbar.css);
+@import url(./layout/content.css);
+@import url(./layout/popup.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MISA Font Regular;
+  font-size: 13px;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* Setup font */
+
+@font-face {
+  font-family: MISA Font Regular;
+  src: url(../assets/Resource/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+  font-family: MISA Font Italic;
+  src: url(../assets/Resource/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+@font-face {
+  font-family: MISA Font Bold;
+  src: url(../assets/Resource/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+  font-family: MISA Font SemiBold;
+  src: url(../assets/Resource/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+
+/* Content here */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
